@@ -1,7 +1,18 @@
 <div class="container-fluid">
-  <div class="bg-dark">
-    <div class="text-left">
+  <div class="navbar navbar-dark bg-dark">
+    <div class="navbar-brand">
       <h1 class="text-light">JavaPractice</h1>
     </div>
+    
+    <ul class="navbar-nav">
+      <div class="btn-group">
+        <%= link_to practice_index_path, class: "nav-item btn btn-outline-light" do %>
+          <li>Index</li>
+        <% end %>
+        <%= link_to practice_show_path,  class: "nav-item btn btn-outline-light" do %>
+          <li>Show</li>
+        <% end %>
+      </div>
+    </ul>
   </div>
 </div>
