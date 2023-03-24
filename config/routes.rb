@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   get "homes/top"
-  get "practice/index"
   get "main/index"
+  get "practice/index"
+  get "practice/show"
   
   #root to: "main#index"
   root to: "practice#index"
