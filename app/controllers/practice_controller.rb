@@ -6,4 +6,7 @@ class PracticeController < ApplicationController
   def show
   end
   
+  def view
+  end
+  
 end
